@@ -1352,7 +1352,7 @@ ul.icons {
     ul.icons li .icon {
       color: inherit; }
       ul.icons li .icon:before {
-        font-size: 1.25em; }
+        font-size: 1.5em; }
 
 /* Contact */
 ul.contact {
@@ -2091,20 +2091,15 @@ button,
     font-family: "Roboto Slab", serif;
     font-size: 1.125em; }
   #header .icons {
-    text-align: right; }
+    text-align: left; }
   @media screen and (max-width: 1680px) {
     #header {
       padding-top: 5em; } }
   @media screen and (max-width: 736px) {
     #header {
-      padding-top: 6.5em; }
-      #header .logo {
-        font-size: 1.25em;
-        margin: 0; }
+      padding-top: 5em; }
       #header .icons {
-        height: 5em;
-        line-height: 5em;
-        position: absolute;
+        position: relative;
         right: -0.5em;
         top: 0; } }
 
